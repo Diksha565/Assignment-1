@@ -1,0 +1,74 @@
+.skill {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.skill p {
+    margin: 0 0 5px 0;
+}
+
+.skill-bar {
+    width: 40%;
+    background-color: #555;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-bar-inner {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.html {
+    width: 90%;
+    background-color: #4caf50;
+}
+
+.css {
+    width: 85%;
+    background-color: #2196f3;
+}
+
+.javascript {
+    width: 60%;
+    background-color: #4caf50;
+    color: #323330;
+}
+.java{
+    width: 50%;
+    background-color: #4caf50;
+    color: #323330;
+}
+.mysql{
+    width:50%;
+    background-color: #2196f3;
+    color:#323330
+}
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+body{
+    margin:auto;
+    max-width: 960px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.left{
+    border-right: 1px solid gray;
+}
+.right{
+    margin-left:15px;
+}
+#gap{
+    margin-top: 80px;
+}
+a{
+    text-decoration: none;
+    color: #323330;
+}
